@@ -11,6 +11,9 @@
         android:theme="@style/Theme.ApplicationBanque">
 
         <activity
+            android:name=".Summary"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:label="login"
             android:exported="true">

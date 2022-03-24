@@ -27,9 +27,13 @@
 
     <ImageView
         android:id="@+id/camembert"
-        android:layout_width="354dp"
+        android:layout_width="0dp"
         android:layout_height="213dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
         android:layout_marginTop="20dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
         android:contentDescription="@string/camembert_description"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -47,7 +51,8 @@
         android:layout_marginRight="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/settings_icon" />
+        app:srcCompat="@drawable/settings_icon"
+        android:onClick="openSettingsPage"/>
 
     <TextView
         android:id="@+id/camembert_desc"
@@ -77,9 +82,13 @@
 
     <ImageView
         android:id="@+id/summary_graph"
-        android:layout_width="357dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
         android:layout_marginTop="280dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
         android:layout_marginBottom="80dp"
         app:layout_constraintBottom_toTopOf="@+id/ellipse_home"
         app:layout_constraintEnd_toEndOf="parent"

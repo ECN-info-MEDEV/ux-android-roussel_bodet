@@ -10,10 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationBanque">
         <activity
-            android:name=".Settings"
-            android:exported="false" />
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:parentActivityName=".SummaryActivity"/>
         <activity
-            android:name=".Summary"
+            android:name=".SummaryActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

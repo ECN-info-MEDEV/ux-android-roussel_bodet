@@ -5,14 +5,12 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="MY BANQUE"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ApplicationBanque">
 
-        <activity
-            android:name=".Summary"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:label="login"
@@ -27,12 +25,12 @@
             android:name=".RegisterActivity"
             android:label="register"
             android:exported="true"
-            android:parentActivityName=".MainActivity">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=
-                "com.example.android.applicationbanque.MainActivity" />
+            >
         </activity>
+        <activity
+            android:name=".Summary"
+            android:label="summary"
+            android:exported="true" />
 
     </application>
 

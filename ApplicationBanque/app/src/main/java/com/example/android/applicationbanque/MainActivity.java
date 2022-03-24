@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Login(View view) {
-        Intent intent = new Intent(this, Summary.class);
+        Intent intent = new Intent(this, SummaryActivity.class);
         String message = loginInput.getText().toString();
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);

@@ -25,19 +25,19 @@
 
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/username_login"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="268dp"
-        android:hint="@string/prompt_email"
-        android:inputType="textEmailAddress"
+        android:hint="@string/prompt_username"
+        android:inputType="text"
         android:selectAllOnFocus="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/password1"
+        android:id="@+id/password_login"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
@@ -46,7 +46,7 @@
         android:selectAllOnFocus="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email" />
+        app:layout_constraintTop_toBottomOf="@+id/username_login" />
 
     <Button
         android:id="@+id/login_button"
@@ -61,7 +61,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.566"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password1"
+        app:layout_constraintTop_toBottomOf="@+id/password_login"
         app:layout_constraintVertical_bias="0.994" />
 
     <Button
@@ -70,7 +70,7 @@
         android:layout_height="wrap_content"
         android:text="Don't have an account ? "
         app:backgroundTint="@color/background"
-        app:layout_constraintBottom_toTopOf="@+id/email"
+        app:layout_constraintBottom_toTopOf="@+id/username_login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:onClick="openRegisterPage"/>
